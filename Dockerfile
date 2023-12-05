@@ -1,5 +1,5 @@
 # Stage 1: Build the application
-FROM gradle:7.2-jdk11 AS builder
+FROM gradle:8.2-jdk11 AS builder
 
 WORKDIR /usr/src/app
 
